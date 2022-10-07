@@ -1,6 +1,25 @@
 # 8BitSAR_SatvikGoel_eSim
 This repository presents the mixed signal design of a SAR ADC. The Digital part of the circuit i.e SAR block and control block is simulated on Makerchip tool. All the Simulations are done using Esim and Makerchip tool only. Since the counter used is taken to be 8-Bit, the input voltage that can be converted to analog is limited to 0-3.3V. A 4-Bit Digital to Analog Converter (DAC) is used as an internal part, having the step size of 12.89mV.
 # Table of Contents
+- Introduction
+- Tool Used
+-- eSim
+-- NgSpice
+-- Makerchip
+-- Verilator
+- Refrence Circuit Diagram
+- Expected Waveform
+- Approach
+- Schematic
+- Verilog Code For SAR Block
+- Verilog Code for Control Block
+- Waveforms
+- Generated Netlist
+- Result
+- Generation of Digital Block Model using Ngveri Tab
+- Steps to Run Simulation of Project
+- Reference
+- Author
 # Introduction
 # Tool Used
 ## eSim
@@ -83,7 +102,7 @@ Q <= D;
 end
 endmodule
 ```
-# Waveform
+# Waveforms
 1. Vin = 0.9
  ![0 9V](https://user-images.githubusercontent.com/60666893/194525700-0584c0ac-5665-42ae-86ac-f7714030199b.png)
 2. Vin = 1.2
