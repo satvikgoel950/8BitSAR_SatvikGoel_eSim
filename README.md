@@ -13,12 +13,12 @@ For more details refer: https://esim.fossee.in/home
 NgSpice is the open source spice simulator for electric and electronic circuits. Such a circuit may comprise of JFETs, bipolar and MOS transistors, passive elements like R, L, or C, diodes, transmission lines and other devices, all interconnected in a netlist. Digital circuits are simulated as well, event driven and fast, from single gates to complex circuits. And you may enter the combination of both analog and digital as a mixed-signal circuit.
 
 For more details refer: http://ngspice.sourceforge.net/docs.html
-##Makerchip
+## Makerchip
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation.
 
 For More Details Refer: https://www.makerchip.com/
 
-##Verilator
+## Verilator
 It is a tool which converts Verilog code to C++ objects.
 
 For More Details Refer: https://www.veripool.org/verilator/
