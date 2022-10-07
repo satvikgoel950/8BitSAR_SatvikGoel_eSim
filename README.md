@@ -3,10 +3,6 @@ This repository presents the mixed signal design of a SAR ADC. The Digital part 
 # Table of Contents
 - Introduction
 - Tool Used
- * eSim
- * NgSpice
- * Makerchip
- * Verilator
 - Refrence Circuit Diagram
 - Expected Waveform
 - Approach
@@ -21,6 +17,7 @@ This repository presents the mixed signal design of a SAR ADC. The Digital part 
 - Reference
 - Author
 # Introduction
+The world surrounding us has only analog signals which were utilised and analysed by the engineers before the digital era. In the digital era all the signals are digital in nature and hence the usage of analog to digital converters(adc's) has increased significantly. Digital domain provides the facilities of higher speeds, storage, high immunity to noise and what not. In order to have maximum benefits we need are adc's to be fast and efficient. SAR type adc is one of the fastest adc which can be designed. An SAR(Successive Approximation Register) block take only number of pulses equal to the number of bits. Where adc like counter type counts to 2 power N times, an SAR block does that in N pulses only.
 # Tool Used
 ## eSim
 eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, makerchip-app, sandpiper-saas and GHDL. eSim is released under GPL.
@@ -46,7 +43,7 @@ For More Details Refer: https://www.veripool.org/verilator/
 # Expected Waveform
 ![SAR_waveform](https://user-images.githubusercontent.com/60666893/194520904-d37724a0-d01c-45ad-b505-4c51e9b5994a.jpg)
 # Approach
-
+The analog input voltage (VIN) is held constant. To implement the binary search algorithm, the N-bit register is first set to midscale (that is, 100... .00, where the MSB is set to 1). This forces the DAC output (VDAC) to be VREF/2, where VREF is the reference voltage provided to the ADC. A comparison is then performed to determine if VIN is less than, or greater than, VDAC. If VIN is greater than VDAC, the comparator output is a logic high, or 1, and the MSB of the N-bit register remains at 1. Conversely, if VIN is less than VDAC, the comparator output is a logic low and the MSB of the register is cleared to logic 0. The SAR control logic then moves to the next bit down, forces that bit high, and does another comparison. The sequence continues all the way down to the LSB. Once this is done, the conversion is complete and the N-bit digital word is available in the register.
 # Schematic
 ![circuit](https://user-images.githubusercontent.com/60666893/194521178-5fa2ca65-6cb9-4c40-a08c-d23957446ce0.png)
 # Verilog Code of SAR Block
