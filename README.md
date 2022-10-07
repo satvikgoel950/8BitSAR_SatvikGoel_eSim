@@ -3,10 +3,10 @@ This repository presents the mixed signal design of a SAR ADC. The Digital part 
 # Table of Contents
 - Introduction
 - Tool Used
--- eSim
--- NgSpice
--- Makerchip
--- Verilator
+ - eSim
+ - NgSpice
+ - Makerchip
+ - Verilator
 - Refrence Circuit Diagram
 - Expected Waveform
 - Approach
