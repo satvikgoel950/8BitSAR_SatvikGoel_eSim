@@ -1,0 +1,4 @@
+Circuit: * C:\Users\Hp\eSim-Workspace\SAR8Bit\SAR8Bit.cir
+
+Fatal Error: Unknown subcircuit called in:
+   x1 net-_x1-pad1_ gnd vout net-_x1-pad4_ net-_u4-pad1_ gnd avsd_opamp
