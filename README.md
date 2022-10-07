@@ -163,6 +163,8 @@ plot v(comp)
 .endc
 .end
 ```
+# Result
+The Design and simulation of the SAR type ADC is finally done. The ouput has a very small error of around 1% which is quite minimal and in many inputs the output had close 0.1% error. The plots obtained are mathing the excepted waveforms.
 # Generation of Digital Block Model using Ngveri Tab
 1. Open eSim
 2. Run NgVeri-Makerchip
