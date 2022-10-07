@@ -85,7 +85,7 @@ endmodule
 ```
 # Waveform
 1. Vin = 0.9
- ![0 9V](https://user-images.githubusercontent.com/60666893/194523990-36acf995-daf3-44b4-b6db-7d3d17d769fa.png)
+ ![0 9V](https://user-images.githubusercontent.com/60666893/194525700-0584c0ac-5665-42ae-86ac-f7714030199b.png)
 2. Vin = 1.2
  ![1 2V](https://user-images.githubusercontent.com/60666893/194524035-c740bc26-4c44-4f26-a5ed-912059b58fad.png)
 3. Vin = 2.4
