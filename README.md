@@ -86,13 +86,10 @@ endmodule
 # Waveform
 1. Vin = 0.9
  ![0 9V](https://user-images.githubusercontent.com/60666893/194523990-36acf995-daf3-44b4-b6db-7d3d17d769fa.png)
-
 2. Vin = 1.2
  ![1 2V](https://user-images.githubusercontent.com/60666893/194524035-c740bc26-4c44-4f26-a5ed-912059b58fad.png)
-
 3. Vin = 2.4
- ![2 4V](https://user-images.githubusercontent.com/60666893/194524128-10780eaa-eba1-4089-ab4e-55984096c5cf.png)
-
+ ![2 4V](https://user-images.githubusercontent.com/60666893/194524820-e100d2c9-53a5-4520-9403-55b25f9e4137.png)
 # Generated NetList
 ```
 * c:\users\hp\esim-workspace\sar8bit\sar8bit.cir
