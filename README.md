@@ -1,21 +1,22 @@
 # 8BitSAR_SatvikGoel_eSim
 This repository presents the mixed signal design of a SAR ADC. The Digital part of the circuit i.e SAR block and control block is simulated on Makerchip tool. All the Simulations are done using Esim and Makerchip tool only. Since the counter used is taken to be 8-Bit, the input voltage that can be converted to analog is limited to 0-3.3V. A 8-Bit Digital to Analog Converter (DAC) is used as an internal part, having the step size of 12.89mV.
 # Table of Contents
-- Introduction
-- Tool Used
-- Refrence Circuit Diagram
-- Expected Waveform
-- Approach
-- Schematic
-- Verilog Code For SAR Block
-- Verilog Code for Control Block
-- Waveforms
-- Generated Netlist
-- Result
-- Generation of Digital Block Model using Ngveri Tab
-- Steps to Run Simulation of Project
-- Reference
-- Author
+- [Introduction](#introduction)
+- [Tool Used](#tool-used)
+- [Reference Circuit Diagram](#reference-circuit-diagram)
+- [Expected Waveform](#expected-waveform)
+- [Approach](#approach)
+- [Schematic](#schematic)
+- [Verilog Code of SAR Block](#verilog-code-of-sar-block)
+- [Verilog Code of Control Block](#verilog-code-of-control-block)
+- [Waveforms](#waveforms)
+- [Generated Netlist](#generated-netlist)
+- [Result](#result)
+- [Generation of Digital Block Model using Ngveri Tab](#generation-of-digital-block-model-using-ngveri-tab)
+- [Steps to Run Simulation of Project](#steps-to-run-simulation-of-project)
+- [Reference](#reference)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
 # Introduction
 The world surrounding us has only analog signals which were utilised and analysed by the engineers before the digital era. In the digital era all the signals are digital in nature and hence the usage of analog to digital converters(adc's) has increased significantly. Digital domain provides the facilities of higher speeds, storage, high immunity to noise and what not. In order to have maximum benefits we need are adc's to be fast and efficient. SAR type adc is one of the fastest adc which can be designed. An SAR(Successive Approximation Register) block take only number of pulses equal to the number of bits. Where adc like counter type counts to 2 power N times, an SAR block does that in N pulses only.
 # Tool Used
@@ -184,5 +185,9 @@ The Design and simulation of the SAR type ADC is finally done. The ouput has a v
 # Reference
 1. Design with operational amplifiers and analog integrated circuits / Sergio Franco, San Francisco State University. – Fourth edition.
 2. A. Sinha and S. K. Sen, "Design of an improved successive approximation type ADC using multi bit per cycle algorithm for conversion rate improvement.", 2014.
+# Acknowledgement
+1. FOSSEE, IIT Bombay
+2. Kunal Ghosh, VSD
+3. Sumanto Kar, IIT Bombay
 # Author
-### Satvik Goel, Electronics and Communication Engineering Department, B.Tech Final Year, Madan Mohan Malaviya University of Technology, Gorakhour, U.P.
+### Satvik Goel, Electronics and Communication Engineering Department, B.Tech Final Year, Madan Mohan Malaviya University of Technology, Gorakhpur, U.P.
