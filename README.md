@@ -187,7 +187,8 @@ The Design and simulation of the SAR type ADC is finally done. The ouput has a v
 2. A. Sinha and S. K. Sen, "Design of an improved successive approximation type ADC using multi bit per cycle algorithm for conversion rate improvement.", 2014.
 # Acknowledgement
 1. FOSSEE, IIT Bombay
-2. Kunal Ghosh, VSD
-3. Sumanto Kar, IIT Bombay
+2. Steve Hoover, Founder, Redwood EDA
+3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+4. Sumanto Kar, eSim Team, FOSSEE
 # Author
 ### Satvik Goel, Electronics and Communication Engineering Department, B.Tech Final Year, Madan Mohan Malaviya University of Technology, Gorakhpur, U.P.
